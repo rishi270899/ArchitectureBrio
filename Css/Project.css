@@ -1,0 +1,124 @@
+.weblogo {
+    width: 100;
+}
+
+.navbar {
+    background: lightgrey !important;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: fff !important;
+    font-size: 15px;
+    font-weight: 600;
+} 
+
+.moblogo {
+    display: none;
+}
+
+.navbar-nav a:hover {
+    background-color: lightgray;
+}
+
+/* @media(max-width:768px) {
+    .img123 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .moblogo {
+        display: block;
+    }
+
+    .weblogo {
+        display: none;
+    }
+
+    .navbar {
+        background: lightgray !important;
+    }
+} */
+
+.a ul li a{
+    text-transform: uppercase !important;
+    color: black !important;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.h:hover{
+    color: rgb(151, 141, 81)!important;
+}
+
+footer {
+    background-color: lightgray
+        /* Dark background */
+}
+
+footer h5 {
+    margin-bottom: 1rem;
+    /* Add some spacing below headings */
+
+}
+
+footer p {
+    font-size: 0.875rem;
+    /* Adjust font size for readability */
+}
+
+footer a {
+    font-size: 1.25rem;
+    /* Increase icon size */
+    transition: color 0.3s ease;
+    /* Smooth color transition on hover */
+}
+
+footer a:hover {
+    color: #007bff;
+    /* Change color on hover */
+}
+
+img {
+    aspect-ratio: 3/2;
+}
+
+.b:hover {
+    cursor: pointer;
+}
+
+.c:hover {
+    cursor: pointer;
+
+} 
+
+.hov {
+   /* filter: blur(1px); */
+   filter: brightness(0.80);
+   transition: all 0.4s ease-in;
+  
+
+}
+.col-md-4{
+    animation: hov linear;
+    animation-timeline: view();
+    animation-duration: entry 0 cover 85%;
+}
+
+.hov:hover {
+    /* filter: blur(0); */
+    filter: brightness(1);
+    transform: scale(1.03   );
+}
+
+@keyframes hov {
+    from {
+     scale: 0.8;
+    }
+
+    to {
+        scale: 1;
+    }
+}

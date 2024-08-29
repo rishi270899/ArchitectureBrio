@@ -1,0 +1,83 @@
+.weblogo{
+    width: 100;
+}
+.navbar{
+    background: lightgrey!important;
+}
+.navbar-nav li{ 
+    padding: 0 10px;                                                   
+}
+.navbar-nav li a{
+    color: fff!important; 
+    font-size: 15px;
+    font-weight: 600;
+}
+.moblogo{
+    display: none;
+}
+.navbar-nav a:hover{
+    background-color:lightgray;
+}
+
+/* @media(max-width:768px)
+{ 
+    .img123{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .moblogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: lightgray!important;
+    }
+} */
+.a ul li a{
+    text-transform: uppercase !important;
+    color: black !important;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.h:hover{
+    color: rgb(151, 141, 81)!important;
+}
+footer {
+    background-color:lightgray /* Dark background */
+}
+
+footer h5 {
+    margin-bottom: 1rem; /* Add some spacing below headings */
+    
+}
+
+footer p {
+    font-size: 0.875rem; /* Adjust font size for readability */
+}
+
+footer a {
+    font-size: 1.25rem; /* Increase icon size */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+footer a:hover {
+    color: #007bff; /* Change color on hover */
+}
+.map{
+    padding-top: 80px;
+}
+ /* Ensure the iframe is centered */
+ .map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px; /* Adjust height as needed */
+    margin: 20px 0; /* Margin for spacing */
+}
+.map-container iframe {
+    max-width: 100%;
+    height: 100%;
+    border: 0;
+}

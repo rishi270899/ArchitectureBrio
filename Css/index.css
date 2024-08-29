@@ -1,0 +1,83 @@
+.weblogo{
+    width: 100;
+}
+.navbar{
+    background: lightgrey!important;
+}
+.navbar-nav li{ 
+    padding: 0 10px;                                                   
+}
+.navbar-nav li a{
+    color: fff!important; 
+    font-size: 15px; 
+    font-weight: 600;
+} 
+.moblogo{
+    display: none;
+}
+/* .navbar-nav a:hover{
+    background-color:white;
+} */
+/* 
+@media(max-width:768px)
+{
+    .img123{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .moblogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: lightgray!important;
+    }
+} */
+.a ul li a{
+    text-transform: uppercase !important;
+    color: black !important;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.h:hover{
+    color: rgb(151, 141, 81)!important;
+}
+.carousel-image-container {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    animation: fadeInOut 4s ease-in-out infinite;
+}
+
+.carousel-text h2 {
+    font-size: 5em;
+    margin: 0;
+}
+
+.carousel-text p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+img{
+    aspect-ratio:  3/2;
+}
