@@ -12,7 +12,7 @@
     font-size: 15px; 
     font-weight: 600;
 } 
-.moblogo{
+.moblogo{ 
     display: none;
 }
 /* .navbar-nav a:hover{
@@ -41,46 +41,7 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
-.h:hover{
-    color: rgb(151, 141, 81)!important;
-}
-.carousel-image-container {
-    position: relative;
-    width: 100%;
-}
-
-.carousel-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    animation: fadeInOut 4s ease-in-out infinite;
-}
-
-.carousel-text h2 {
-    font-size: 5em;
-    margin: 0;
-}
-
-.carousel-text p {
-    font-size: 1.5em;
-    margin: 0;
-}
-
-@keyframes fadeInOut {
-    0%, 100% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 1;
-    }
-}
-img{
-    aspect-ratio:  3/2;
-}
 .as{
     padding-right: 100px;
 }
+/* nav bar css end */

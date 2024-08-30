@@ -41,6 +41,10 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
+.as{
+    padding-right: 70px;
+}
+/* navbar css end */
 .h:hover{
     color: rgb(151, 141, 81)!important;
 }
@@ -108,4 +112,7 @@ footer a {
 
 footer a:hover {
     color: #007bff; /* Change color on hover */
+}
+.dropdown-menu,.dropdown{
+    width: fit-content !important;
 }

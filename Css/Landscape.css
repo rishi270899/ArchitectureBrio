@@ -1,0 +1,68 @@
+.weblogo{
+    width: 100;
+}
+.navbar{
+    background: lightgrey!important;
+}
+.navbar-nav li{ 
+    padding: 0 10px;                                                    
+}
+.navbar-nav li a{
+    color: fff!important; 
+    font-size: 15px; 
+    font-weight: 600;
+} 
+.moblogo{
+    display: none;
+}
+/* .navbar-nav a:hover{
+    background-color:white;
+} */
+/* 
+@media(max-width:768px)
+{
+    .img123{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .moblogo{
+        display: block;
+    }
+    .weblogo{
+        display: none;
+    }
+    .navbar{
+        background: lightgray!important;
+    }
+} */
+.a ul li a{
+    text-transform: uppercase !important;
+    color: black !important;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+/* navbar css end */
+.b{
+    margin-top: 120px;
+    font-family: cursive;
+}
+
+p{
+    text-align: justify;
+}
+img{
+    aspect-ratio: 3/2;
+    filter: brightness(0.80);
+    transition: all 0.5s ease-in-out;
+}
+img:hover{
+    cursor: pointer;
+    filter: brightness(1);
+    transform: scale(1.03);
+}
+h6{
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(151, 141, 81);
+    
+}

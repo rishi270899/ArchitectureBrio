@@ -49,6 +49,10 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
+.as{
+    padding-right: 100px;
+}
+/* navbar caa end */
 .h:hover{
     color: rgb(151, 141, 81)!important;
 }
@@ -108,9 +112,9 @@ img {
 }
 
 .hov:hover {
-    /* filter: blur(0); */
+    /* filter: blur(0); */ 
     filter: brightness(1);
-    transform: scale(1.03   );
+    transform: scale(1.03);
 }
 
 @keyframes hov {
@@ -121,4 +125,7 @@ img {
     to {
         scale: 1;
     }
+}
+.dropdown-menu,.dropdown{
+    width: max-content !important;
 }
