@@ -31,7 +31,7 @@
     }
 
     .moblogo {
-        display: block;
+        display: block; 
     }
 
     .weblogo {
@@ -96,7 +96,7 @@ img {
 .c:hover {
     cursor: pointer;
 
-} 
+}  
 
 .hov {
    /* filter: blur(1px); */
@@ -128,4 +128,9 @@ img {
 }
 .dropdown-menu,.dropdown{
     width: max-content !important;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 5px; /* Optional: Adjust the position of the dropdown */
 }

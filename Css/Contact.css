@@ -42,7 +42,7 @@
     
 }
 .as{
-    padding-right: 70px;
+    padding-right: 100px;
 }
 /* navbar css end */
 .h:hover{
@@ -116,3 +116,11 @@ footer a:hover {
 .dropdown-menu,.dropdown{
     width: fit-content !important;
 }
+
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 5px; /* Optional: Adjust the position of the dropdown */
+}
+
+/* drop down open krne k liye */

@@ -44,4 +44,11 @@
 .as{
     padding-right: 100px;
 }
+
 /* nav bar css end */
+
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 5px; /* Optional: Adjust the position of the dropdown */
+}
+/* dropdown open krne k liye */

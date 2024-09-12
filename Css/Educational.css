@@ -41,6 +41,9 @@
     font-family: 'Courier New', Courier, monospace;
     
 }
+.as{
+    padding-right: 100px;
+}
 /* navbar css end */
 
 .b{
@@ -66,3 +69,8 @@ h6{
     color: rgb(151, 141, 81);
     
 }
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 5px; /* Optional: Adjust the position of the dropdown */
+}
+/* dropdown open krne k liye */

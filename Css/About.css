@@ -23,7 +23,7 @@
     
 }
 .as{
-    padding-right: 70px;
+    padding-right: 100px;
 }
 /* nav bar css end */
 .h:hover{
@@ -72,4 +72,8 @@ footer a {
 
 footer a:hover {
     color: #007bff; /* Change color on hover */
+}
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 5px; /* Optional: Adjust the position of the dropdown */
 }
